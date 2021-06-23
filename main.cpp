@@ -1,26 +1,15 @@
-#ifdef __linux__ 
-    #define LINUX
-#elif _WIN32
-	#define WINDOWS
-#else
-	#define UNKNOWN
-#endif
-
-
 #include <iostream>
 
 using namespace std;
 
 int main()
 {
-	cout << "Hello world on linux" << endl;
-	cout << "Hello world on windows" << endl;
 	
-	#ifdef LINUX
+	#ifdef __linux__ 
 		cout << "linux detect" << endl;
 	#endif
 	
-	#ifdef WINDOWS
+	#ifdef _WIN32
 		cout << "windows detect" << endl;
 	#endif
 	
