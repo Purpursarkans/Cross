@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-	cout << "Hello world on cross" << endl;
+	cout << "Hello world on linux" << endl;
 	return 0;
 	
 }
