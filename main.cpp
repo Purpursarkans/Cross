@@ -16,6 +16,7 @@ int main()
 	
 	cout << "Pravka s linux 1" << endl;
 	cout << "Pravka s linux 2" << endl;
+	cout << "Pravka s linux 3" << endl;
 	
 	
 	return 0;
