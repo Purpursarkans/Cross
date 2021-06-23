@@ -14,6 +14,7 @@ int main()
 	cout << "Pravka s windows 5" << endl;
 	cout << "Pravka s windows 6" << endl;
 	cout << "Pravka s windows 7" << endl;
+	cout << "Pravka s windows 8" << endl;
 	
 	cout << "Pravka s linux 1" << endl;
 	cout << "Pravka s linux 2" << endl;
