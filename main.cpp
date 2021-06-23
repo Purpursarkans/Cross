@@ -7,7 +7,8 @@ int main()
 	cout << "Hello world on linux" << endl;
 	cout << "Hello world on windows" << endl;
 	
-	cout << "Правка с виндовс 1" << endl;
+	cout << "Pravka s windows 1" << endl;
+	cout << "Pravka s windows 2" << endl;
 	
 	return 0;
 	
