@@ -9,7 +9,8 @@ int main()
 	
 	cout << "Pravka s windows 1" << endl;
 	cout << "Pravka s windows 2" << endl;
-	cout << "Pravka s windows 1" << endl;
+	cout << "Pravka s windows 3" << endl;
+	cout << "Pravka s windows 4" << endl;
 	
 	cout << "Pravka s linux 1" << endl;
 
