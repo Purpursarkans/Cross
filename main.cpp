@@ -4,14 +4,14 @@ using namespace std;
 
 int main()
 {
-	
-	#ifdef __linux__ 
-		cout << "linux detect" << endl;
+	#ifdef __x86_64__
+                cout << "x64 detect" << endl;
+		#ifdef _WIN64
+			cout << "windows64 detect" << endl;
+		#endif
+		#ifdef __linux__ 
+			cout << "linux detect" << endl;
+		#endif
 	#endif
-	
-	#ifdef _WIN32
-		cout << "windows detect" << endl;
-	#endif
-	
 	return 0;
 }
