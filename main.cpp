@@ -12,6 +12,9 @@ int main()
 		#ifdef __linux__ 
 			cout << "linux detect" << endl;
 		#endif
+	#else
+		cout << "need x64bit platform"
+		return 0;
 	#endif
-	return 0;
+	
 }
