@@ -13,7 +13,7 @@ int main()
 			cout << "linux detect" << endl;
 		#endif
 	#else
-		cout << "need x64bit platform"
+		cout << "need x64bit platform" << endl;
 		return 0;
 	#endif
 	
