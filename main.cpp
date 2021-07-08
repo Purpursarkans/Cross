@@ -20,8 +20,7 @@ using namespace std;
 int main()
 {
         #if DEBUG == 1
-                cout << "x64 detect" << endl;
-                cout << PLATFORM << " detect" << endl;
+                cout << "x64 detect" << endl << PLATFORM << " detect" << endl;
         #endif
         #if BIT != 64
                 cout << "need x64-bit platform" << endl;
