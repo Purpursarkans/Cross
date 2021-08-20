@@ -7,8 +7,10 @@ using namespace std;
 
     #ifdef _WIN64
         #define PLATFORM "Windows"
+        #define PWIN 1
     #elif __linux__
         #define PLATFORM "Linux"
+        #define PLIN 1
     #else
         #define PLATFONR "Unknown"
     #endif
