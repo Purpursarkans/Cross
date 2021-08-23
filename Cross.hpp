@@ -37,7 +37,7 @@ void check()
     }
     else if (BIT != 64)
     {
-        std::cout << "need x64-bit platform" << std::endl;
+        std::cout << "need x64-bit " << PLATFORM << std::endl;
     }
     pause();
 }
