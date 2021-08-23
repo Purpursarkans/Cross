@@ -39,7 +39,6 @@ void check()
     {
         std::cout << "need x64-bit " << PLATFORM << std::endl;
     }
-    pause();
 }
 
 #endif
