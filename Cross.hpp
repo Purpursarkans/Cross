@@ -1,7 +1,7 @@
-#include <iostream>
-using namespace std;
+#ifndef CROSS_HPP
+#define CROSS_HPP
 
-#define DEBUG 1
+#include <iostream>
 
 #if defined (__x86_64__) || defined(__aarch64__)
 
@@ -29,14 +29,17 @@ void pause()
     #endif
 }
 
-int main()
-{
-    #if DEBUG == 1
-        cout << "x64 detect" << endl << PLATFORM << " detect" << endl;
-    #endif
-    #if BIT != 64
-        cout << "need x64-bit platform" << endl;
-    #endif
+void check()
+{   
+    if(BIT == 64)
+    {
+        std::cout << "x64 detect" << std::endl << PLATFORM << " detect" << std::endl;
+    }
+    else if (BIT != 64)
+    {
+        std::cout << "need x64-bit platform" << std::endl;
+    }
     pause();
-    return 0;
 }
+
+#endif
