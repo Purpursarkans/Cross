@@ -42,7 +42,7 @@ void check()
 {   
     if(BIT == 64)
     {
-        std::cout << "x64 " << PLATFORM << " detect" << std::endl;
+        std::cout << PLATFORM << " x64 " << "detect" << std::endl;
     }
     else if (BIT != 64)
     {
