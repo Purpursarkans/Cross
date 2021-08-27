@@ -2,6 +2,8 @@
 ///				 https://github.com/Purpursarkans/Cross
 ///			 	 https://github.com/Purpursarkans/Cross/blob/main/Cross.hpp
 
+///you can see this file in my other projects, the versions of the files will be different and, perhaps, the code in them will be different, so if you want to see get the latest version of the file, open the original using the links above
+
 
 #ifndef CROSS_HPP
 #define CROSS_HPP
