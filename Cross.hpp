@@ -4,6 +4,8 @@
 
 ///you can see this file in my other projects, the versions of the files will be different and, perhaps, the code in them will be different, so if you want to see get the latest version of the file, open the original using the links above
 
+///вы можете увидеть этот файл в других моих проектах, версии файлов могут быть другими и, возможно, код в них будет другим, поэтому, если вы хотите увидеть, последнюю версию файла, откройте оригинал по ссылкам выше
+
 
 #ifndef CROSS_HPP
 #define CROSS_HPP
