@@ -1,3 +1,8 @@
+///original file
+///				 https://github.com/Purpursarkans/Cross
+///			 	 https://github.com/Purpursarkans/Cross/blob/main/Cross.hpp
+
+
 #ifndef CROSS_HPP
 #define CROSS_HPP
 
