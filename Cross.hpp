@@ -38,6 +38,15 @@ void pause()
     #endif
 }
 
+void clear()
+{
+    #ifdef PWIN
+        system("cls");
+    #elif PLIN
+        system("clear");
+    #endif
+}
+
 void check()
 {   
     if(BIT == 64)
