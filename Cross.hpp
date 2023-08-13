@@ -64,13 +64,12 @@ void check()
     }
 }
 
-
 void Sleep(int sleep)
 {
     std::this_thread::sleep_for(std::chrono::milliseconds(sleep));
 }
 
-void SleepSEC(int sleep)
+void SleepSec(int sleep)
 {
     std::this_thread::sleep_for(std::chrono::seconds(sleep));
 }
