@@ -12,6 +12,14 @@
 
 #include <iostream>
 
+#include <chrono>
+#include <thread>
+
+void Sleep(int sleep)
+{
+    std::this_thread::sleep_for(std::chrono::milliseconds(sleep));
+}
+
 #if defined (__x86_64__) || defined(__aarch64__)
 
     #ifdef _WIN64
