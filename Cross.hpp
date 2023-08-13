@@ -15,10 +15,7 @@
 #include <chrono>
 #include <thread>
 
-void Sleep(int sleep)
-{
-    std::this_thread::sleep_for(std::chrono::milliseconds(sleep));
-}
+
 
 #if defined (__x86_64__) || defined(__aarch64__)
 
@@ -65,6 +62,11 @@ void check()
     {
         std::cout << "need x64-bit " << PLATFORM << std::endl;
     }
+}
+
+void Sleep(int sleep)
+{
+    std::this_thread::sleep_for(std::chrono::milliseconds(sleep));
 }
 
 #endif
